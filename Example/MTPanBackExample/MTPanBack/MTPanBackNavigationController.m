@@ -209,7 +209,8 @@
                                  [self navBarTransitionWithAlpha:1];
                                  self.visibleViewController.view.transform = CGAffineTransformIdentity;
                                  self.lastVCSnapshot.transform = CGAffineTransformIdentity;
-                                 self.lastVCSnapshot = nil;
+                                 self.lastVCSnapshot.image = nil;
+                                 self.lastNavBarSnapshot.image = nil;
                                  self.lastNavBarSnapshot.alpha = 0;
                                  [self.lastVCSnapshot removeFromSuperview];
                                  [self.lastNavBarSnapshot removeFromSuperview];
