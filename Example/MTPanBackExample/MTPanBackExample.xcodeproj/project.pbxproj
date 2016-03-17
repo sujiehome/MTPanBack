@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6767071C9A4F9500D1884B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767061C9A4F9500D1884B /* main.m */; };
+		CB67670A1C9A4F9500D1884B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767091C9A4F9500D1884B /* AppDelegate.m */; };
+		CB6767121C9A4F9500D1884B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6767111C9A4F9500D1884B /* Assets.xcassets */; };
+		CB6767151C9A4F9500D1884B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6767131C9A4F9500D1884B /* LaunchScreen.storyboard */; };
+		CB6767201C9A4F9500D1884B /* MTPanBackExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB67671F1C9A4F9500D1884B /* MTPanBackExampleTests.m */; };
+		CB67672B1C9A4F9500D1884B /* MTPanBackExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB67672A1C9A4F9500D1884B /* MTPanBackExampleUITests.m */; };
+		CB6767441C9A502200D1884B /* MTPanBackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB67673A1C9A502200D1884B /* MTPanBackModel.m */; };
+		CB6767451C9A502200D1884B /* MTPanBackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB67673C1C9A502200D1884B /* MTPanBackNavigationController.m */; };
+		CB6767461C9A502200D1884B /* MTPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB67673E1C9A502200D1884B /* MTPanGestureRecognizer.m */; };
+		CB6767481C9A502200D1884B /* UIView+MTSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767411C9A502200D1884B /* UIView+MTSnapshot.m */; };
+		CB6767491C9A502200D1884B /* UIViewController+MTPan.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767431C9A502200D1884B /* UIViewController+MTPan.m */; };
+		CB67674B1C9A503700D1884B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CB67674A1C9A503700D1884B /* README.md */; };
+		CB67674E1C9A50AC00D1884B /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB67674D1C9A50AC00D1884B /* MyNavigationController.m */; };
+		CB6767511C9A50C300D1884B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767501C9A50C300D1884B /* FirstViewController.m */; };
+		CB6767571C9A50E800D1884B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767561C9A50E800D1884B /* SecondViewController.m */; };
+		CB67675A1C9A50FA00D1884B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6767591C9A50FA00D1884B /* ThirdViewController.m */; };
+		CB67675C1C9A53DC00D1884B /* MonkTang.png in Resources */ = {isa = PBXBuildFile; fileRef = CB67675B1C9A53DC00D1884B /* MonkTang.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB67671C1C9A4F9500D1884B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6766FA1C9A4F9500D1884B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6767011C9A4F9500D1884B;
+			remoteInfo = MTPanBackExample;
+		};
+		CB6767271C9A4F9500D1884B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6766FA1C9A4F9500D1884B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6767011C9A4F9500D1884B;
+			remoteInfo = MTPanBackExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB6767021C9A4F9500D1884B /* MTPanBackExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTPanBackExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6767061C9A4F9500D1884B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6767081C9A4F9500D1884B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB6767091C9A4F9500D1884B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB6767111C9A4F9500D1884B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB6767141C9A4F9500D1884B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB6767161C9A4F9500D1884B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB67671B1C9A4F9500D1884B /* MTPanBackExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTPanBackExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB67671F1C9A4F9500D1884B /* MTPanBackExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPanBackExampleTests.m; sourceTree = "<group>"; };
+		CB6767211C9A4F9500D1884B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6767261C9A4F9500D1884B /* MTPanBackExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTPanBackExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB67672A1C9A4F9500D1884B /* MTPanBackExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPanBackExampleUITests.m; sourceTree = "<group>"; };
+		CB67672C1C9A4F9500D1884B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6767391C9A502200D1884B /* MTPanBackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPanBackModel.h; sourceTree = "<group>"; };
+		CB67673A1C9A502200D1884B /* MTPanBackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPanBackModel.m; sourceTree = "<group>"; };
+		CB67673B1C9A502200D1884B /* MTPanBackNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPanBackNavigationController.h; sourceTree = "<group>"; };
+		CB67673C1C9A502200D1884B /* MTPanBackNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPanBackNavigationController.m; sourceTree = "<group>"; };
+		CB67673D1C9A502200D1884B /* MTPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPanGestureRecognizer.h; sourceTree = "<group>"; };
+		CB67673E1C9A502200D1884B /* MTPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPanGestureRecognizer.m; sourceTree = "<group>"; };
+		CB6767401C9A502200D1884B /* UIView+MTSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MTSnapshot.h"; sourceTree = "<group>"; };
+		CB6767411C9A502200D1884B /* UIView+MTSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MTSnapshot.m"; sourceTree = "<group>"; };
+		CB6767421C9A502200D1884B /* UIViewController+MTPan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MTPan.h"; sourceTree = "<group>"; };
+		CB6767431C9A502200D1884B /* UIViewController+MTPan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MTPan.m"; sourceTree = "<group>"; };
+		CB67674A1C9A503700D1884B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB67674C1C9A50AC00D1884B /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		CB67674D1C9A50AC00D1884B /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		CB67674F1C9A50C300D1884B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CB6767501C9A50C300D1884B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CB6767551C9A50E800D1884B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CB6767561C9A50E800D1884B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CB6767581C9A50FA00D1884B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CB6767591C9A50FA00D1884B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CB67675B1C9A53DC00D1884B /* MonkTang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkTang.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6766FF1C9A4F9500D1884B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6767181C9A4F9500D1884B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6767231C9A4F9500D1884B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6766F91C9A4F9500D1884B = {
+			isa = PBXGroup;
+			children = (
+				CB67675B1C9A53DC00D1884B /* MonkTang.png */,
+				CB67674A1C9A503700D1884B /* README.md */,
+				CB6767381C9A502200D1884B /* MTPanBack */,
+				CB6767041C9A4F9500D1884B /* MTPanBackExample */,
+				CB67671E1C9A4F9500D1884B /* MTPanBackExampleTests */,
+				CB6767291C9A4F9500D1884B /* MTPanBackExampleUITests */,
+				CB6767031C9A4F9500D1884B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6767031C9A4F9500D1884B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6767021C9A4F9500D1884B /* MTPanBackExample.app */,
+				CB67671B1C9A4F9500D1884B /* MTPanBackExampleTests.xctest */,
+				CB6767261C9A4F9500D1884B /* MTPanBackExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6767041C9A4F9500D1884B /* MTPanBackExample */ = {
+			isa = PBXGroup;
+			children = (
+				CB6767081C9A4F9500D1884B /* AppDelegate.h */,
+				CB6767091C9A4F9500D1884B /* AppDelegate.m */,
+				CB67674C1C9A50AC00D1884B /* MyNavigationController.h */,
+				CB67674D1C9A50AC00D1884B /* MyNavigationController.m */,
+				CB67674F1C9A50C300D1884B /* FirstViewController.h */,
+				CB6767501C9A50C300D1884B /* FirstViewController.m */,
+				CB6767551C9A50E800D1884B /* SecondViewController.h */,
+				CB6767561C9A50E800D1884B /* SecondViewController.m */,
+				CB6767581C9A50FA00D1884B /* ThirdViewController.h */,
+				CB6767591C9A50FA00D1884B /* ThirdViewController.m */,
+				CB6767111C9A4F9500D1884B /* Assets.xcassets */,
+				CB6767131C9A4F9500D1884B /* LaunchScreen.storyboard */,
+				CB6767161C9A4F9500D1884B /* Info.plist */,
+				CB6767051C9A4F9500D1884B /* Supporting Files */,
+			);
+			path = MTPanBackExample;
+			sourceTree = "<group>";
+		};
+		CB6767051C9A4F9500D1884B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6767061C9A4F9500D1884B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB67671E1C9A4F9500D1884B /* MTPanBackExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB67671F1C9A4F9500D1884B /* MTPanBackExampleTests.m */,
+				CB6767211C9A4F9500D1884B /* Info.plist */,
+			);
+			path = MTPanBackExampleTests;
+			sourceTree = "<group>";
+		};
+		CB6767291C9A4F9500D1884B /* MTPanBackExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB67672A1C9A4F9500D1884B /* MTPanBackExampleUITests.m */,
+				CB67672C1C9A4F9500D1884B /* Info.plist */,
+			);
+			path = MTPanBackExampleUITests;
+			sourceTree = "<group>";
+		};
+		CB6767381C9A502200D1884B /* MTPanBack */ = {
+			isa = PBXGroup;
+			children = (
+				CB6767391C9A502200D1884B /* MTPanBackModel.h */,
+				CB67673A1C9A502200D1884B /* MTPanBackModel.m */,
+				CB67673B1C9A502200D1884B /* MTPanBackNavigationController.h */,
+				CB67673C1C9A502200D1884B /* MTPanBackNavigationController.m */,
+				CB67673D1C9A502200D1884B /* MTPanGestureRecognizer.h */,
+				CB67673E1C9A502200D1884B /* MTPanGestureRecognizer.m */,
+				CB6767401C9A502200D1884B /* UIView+MTSnapshot.h */,
+				CB6767411C9A502200D1884B /* UIView+MTSnapshot.m */,
+				CB6767421C9A502200D1884B /* UIViewController+MTPan.h */,
+				CB6767431C9A502200D1884B /* UIViewController+MTPan.m */,
+			);
+			path = MTPanBack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6767011C9A4F9500D1884B /* MTPanBackExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB67672F1C9A4F9500D1884B /* Build configuration list for PBXNativeTarget "MTPanBackExample" */;
+			buildPhases = (
+				CB6766FE1C9A4F9500D1884B /* Sources */,
+				CB6766FF1C9A4F9500D1884B /* Frameworks */,
+				CB6767001C9A4F9500D1884B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTPanBackExample;
+			productName = MTPanBackExample;
+			productReference = CB6767021C9A4F9500D1884B /* MTPanBackExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB67671A1C9A4F9500D1884B /* MTPanBackExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6767321C9A4F9500D1884B /* Build configuration list for PBXNativeTarget "MTPanBackExampleTests" */;
+			buildPhases = (
+				CB6767171C9A4F9500D1884B /* Sources */,
+				CB6767181C9A4F9500D1884B /* Frameworks */,
+				CB6767191C9A4F9500D1884B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB67671D1C9A4F9500D1884B /* PBXTargetDependency */,
+			);
+			name = MTPanBackExampleTests;
+			productName = MTPanBackExampleTests;
+			productReference = CB67671B1C9A4F9500D1884B /* MTPanBackExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB6767251C9A4F9500D1884B /* MTPanBackExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6767351C9A4F9500D1884B /* Build configuration list for PBXNativeTarget "MTPanBackExampleUITests" */;
+			buildPhases = (
+				CB6767221C9A4F9500D1884B /* Sources */,
+				CB6767231C9A4F9500D1884B /* Frameworks */,
+				CB6767241C9A4F9500D1884B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6767281C9A4F9500D1884B /* PBXTargetDependency */,
+			);
+			name = MTPanBackExampleUITests;
+			productName = MTPanBackExampleUITests;
+			productReference = CB6767261C9A4F9500D1884B /* MTPanBackExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6766FA1C9A4F9500D1884B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Monk.Tang;
+				TargetAttributes = {
+					CB6767011C9A4F9500D1884B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CB67671A1C9A4F9500D1884B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CB6767011C9A4F9500D1884B;
+					};
+					CB6767251C9A4F9500D1884B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CB6767011C9A4F9500D1884B;
+					};
+				};
+			};
+			buildConfigurationList = CB6766FD1C9A4F9500D1884B /* Build configuration list for PBXProject "MTPanBackExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB6766F91C9A4F9500D1884B;
+			productRefGroup = CB6767031C9A4F9500D1884B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6767011C9A4F9500D1884B /* MTPanBackExample */,
+				CB67671A1C9A4F9500D1884B /* MTPanBackExampleTests */,
+				CB6767251C9A4F9500D1884B /* MTPanBackExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6767001C9A4F9500D1884B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6767151C9A4F9500D1884B /* LaunchScreen.storyboard in Resources */,
+				CB67675C1C9A53DC00D1884B /* MonkTang.png in Resources */,
+				CB6767121C9A4F9500D1884B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6767191C9A4F9500D1884B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6767241C9A4F9500D1884B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6766FE1C9A4F9500D1884B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6767441C9A502200D1884B /* MTPanBackModel.m in Sources */,
+				CB67670A1C9A4F9500D1884B /* AppDelegate.m in Sources */,
+				CB67675A1C9A50FA00D1884B /* ThirdViewController.m in Sources */,
+				CB6767491C9A502200D1884B /* UIViewController+MTPan.m in Sources */,
+				CB67674E1C9A50AC00D1884B /* MyNavigationController.m in Sources */,
+				CB6767451C9A502200D1884B /* MTPanBackNavigationController.m in Sources */,
+				CB6767461C9A502200D1884B /* MTPanGestureRecognizer.m in Sources */,
+				CB67674B1C9A503700D1884B /* README.md in Sources */,
+				CB6767511C9A50C300D1884B /* FirstViewController.m in Sources */,
+				CB6767571C9A50E800D1884B /* SecondViewController.m in Sources */,
+				CB6767481C9A502200D1884B /* UIView+MTSnapshot.m in Sources */,
+				CB6767071C9A4F9500D1884B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6767171C9A4F9500D1884B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6767201C9A4F9500D1884B /* MTPanBackExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6767221C9A4F9500D1884B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB67672B1C9A4F9500D1884B /* MTPanBackExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB67671D1C9A4F9500D1884B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6767011C9A4F9500D1884B /* MTPanBackExample */;
+			targetProxy = CB67671C1C9A4F9500D1884B /* PBXContainerItemProxy */;
+		};
+		CB6767281C9A4F9500D1884B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6767011C9A4F9500D1884B /* MTPanBackExample */;
+			targetProxy = CB6767271C9A4F9500D1884B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB6767131C9A4F9500D1884B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6767141C9A4F9500D1884B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB67672D1C9A4F9500D1884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB67672E1C9A4F9500D1884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB6767301C9A4F9500D1884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTPanBackExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Monk.Tang.MTPanBackExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB6767311C9A4F9500D1884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTPanBackExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Monk.Tang.MTPanBackExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB6767331C9A4F9500D1884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTPanBackExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Monk.Tang.MTPanBackExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTPanBackExample.app/MTPanBackExample";
+			};
+			name = Debug;
+		};
+		CB6767341C9A4F9500D1884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTPanBackExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Monk.Tang.MTPanBackExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTPanBackExample.app/MTPanBackExample";
+			};
+			name = Release;
+		};
+		CB6767361C9A4F9500D1884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTPanBackExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Monk.Tang.MTPanBackExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTPanBackExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CB6767371C9A4F9500D1884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTPanBackExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Monk.Tang.MTPanBackExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTPanBackExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6766FD1C9A4F9500D1884B /* Build configuration list for PBXProject "MTPanBackExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB67672D1C9A4F9500D1884B /* Debug */,
+				CB67672E1C9A4F9500D1884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB67672F1C9A4F9500D1884B /* Build configuration list for PBXNativeTarget "MTPanBackExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6767301C9A4F9500D1884B /* Debug */,
+				CB6767311C9A4F9500D1884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6767321C9A4F9500D1884B /* Build configuration list for PBXNativeTarget "MTPanBackExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6767331C9A4F9500D1884B /* Debug */,
+				CB6767341C9A4F9500D1884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6767351C9A4F9500D1884B /* Build configuration list for PBXNativeTarget "MTPanBackExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6767361C9A4F9500D1884B /* Debug */,
+				CB6767371C9A4F9500D1884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6766FA1C9A4F9500D1884B /* Project object */;
+}
