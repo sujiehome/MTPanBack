@@ -53,6 +53,7 @@
     [self lastOverlayView];
     [self imageStack];
     
+    //显示快照比例
     self.showViewOffsetScale = 1 / 3.0;
     self.showViewOffset = self.showViewOffsetScale * self.view.frame.size.width;
 }
@@ -155,9 +156,10 @@
             self.lastVCSnapshot.transform = CGAffineTransformTranslate(CGAffineTransformIdentity,
                                                                        - self.showViewOffset,
                                                                        0);
-            //添加到最上层
+            //添加到最底层
             [self.visibleViewController.view.superview insertSubview:self.lastVCSnapshot
-                                                             atIndex:self.visibleViewController.view.subviews.count];
+                                                             atIndex:0];
+            
             
             //处理navigationBar
             self.lastNavBarSnapshot.image = model.navBarImage;
@@ -169,7 +171,6 @@
         case UIGestureRecognizerStateChanged:
         {
             CGPoint translationPoint = [self.mtPanGes translationInView:self.view];
-            
             if (translationPoint.x < 0) translationPoint.x = 0;
             if (translationPoint.x > 320) translationPoint.x = 320;
             
@@ -209,7 +210,8 @@
                                  [self navBarTransitionWithAlpha:1];
                                  self.visibleViewController.view.transform = CGAffineTransformIdentity;
                                  self.lastVCSnapshot.transform = CGAffineTransformIdentity;
-                                 self.lastVCSnapshot = nil;
+                                 self.lastVCSnapshot.image = nil;
+                                 self.lastNavBarSnapshot.image = nil;
                                  self.lastNavBarSnapshot.alpha = 0;
                                  [self.lastVCSnapshot removeFromSuperview];
                                  [self.lastNavBarSnapshot removeFromSuperview];
