@@ -1,4 +1,4 @@
-# iOS 划动返回 MTPanBackNavigationViewController
+# iOS 划动返回 MTPanBackNavigationController
 
 ### 集成步骤
 
